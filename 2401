@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electec - Materiales Eléctricos y de Construcción</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Electec Logo">
+            </div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <div class="carousel">
+            <div class="carousel-item">
+                <h2>Oferta 1</h2>
+                <p>Descripción de la oferta 1.</p>
+            </div>
+            <div class="carousel-item">
+                <h2>Oferta 2</h2>
+                <p>Descripción de la oferta 2.</p>
+            </div>
+            <!-- Añadir más ofertas según sea necesario -->
+        </div>
+    </section>
+
+    <!-- Sección de Sobre Nosotros -->
+    <section id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>En Electec, tenemos todos los materiales que se necesitan para construir una casa o edificio.</p>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
